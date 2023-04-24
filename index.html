@@ -24,20 +24,20 @@
                  <input type="text" placeholder="手机号或邮箱" id="tele1">
                  <input type="text" placeholder="用户名" id="use1">
                  <input type="password" placeholder="密码" id="password1">
-                 <button id="check"><a target="_parent">登录</a></button>
+                 <button id="check"><a target="_parent" id="a">登录</a></button>
             </div> 
         </div>
             <div class="back right">
                  <h2>欢迎来到<span>治愈小屋</span></h2>
                  <p>我在人间贩卖美好风景</p>
-                 <em><a href="index(2).html" target="_parent"><img src="QQ图片20230315172650.jpg" width="150px" height="200px"></a></em>
+                 <em><a href="index(1).html" target="_parent"><img src="QQ图片20230315172650.jpg" width="150px" height="200px"></a></em>
                  <a>已有帐号?</a>
                  <button id="login1">去登录</button>
             </div>
             <div class="back left">
                 <h2>欢迎来到<span>治愈小屋</span></h2>
                 <p>我在人间贩卖美好风景</p>
-                <em><a href="index(2).html" target="_parent"><img src="QQ图片20230315172650.jpg" width="150px" height="200px"></a></em>
+                <em><a href="index(1).html" target="_parent"><img src="QQ图片20230315172650.jpg" width="150px" height="200px"></a></em>
                 <a>没有帐号?</a>
                 <button id="register1">去注册</button>
         
@@ -57,7 +57,7 @@
         var use1=document.getElementById('use1');
         var submit=document.getElementById('submit');
         var check=document.getElementById('check');
-        var a=document.querySelector('a');
+        var a=document.getElementById('a');
         submit.addEventListener('click',function(){
              if(use.value.trim()==""){
                  alert('请输入用户名');
@@ -87,7 +87,7 @@
              else if(tele.value.trim()!==tele1.value.trim()||password.value.trim()!==password1.value.trim()){
                 alert('账号或密码错误');
              }
-             else{location.assign('index(3).html')}
+             else{location.assign('index(2).html')}
             })
 
         login1.addEventListener('click',function(){
