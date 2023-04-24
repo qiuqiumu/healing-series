@@ -14,7 +14,7 @@ body{
    
 }
 .header{
-    background: url("images/IMG_9606.JPG") no-repeat;
+    background: url("IMG_9606.JPG") no-repeat;
     background-size: 100% 270px;
     width: 100%;
     height: 260px;
@@ -420,7 +420,7 @@ h2{
     display: flex;
     justify-content: space-around;
     position:relative;
-  background-image: url('images/头戴式耳机（1）.jpg');
+  background-image: url('头戴式耳机（1）.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
