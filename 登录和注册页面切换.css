@@ -8,7 +8,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("images/D6799F45C551901AB01E488BCD1E54D8.png") no-repeat;
+    background: url("D6799F45C551901AB01E488BCD1E54D8.png") no-repeat;
 }
 @keyframes animate{
     0%,100%{
